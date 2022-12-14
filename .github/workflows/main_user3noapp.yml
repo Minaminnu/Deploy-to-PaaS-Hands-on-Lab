@@ -45,6 +45,6 @@ jobs:
         uses: azure/webapps-deploy@v2
         with:
           app-name: "User3noApp"
-          slot-name: "Production"
+          slot-name: "staging"
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_EA8BED9E59B045C29C4275584DBF8340}}
           package: "*.jar"
